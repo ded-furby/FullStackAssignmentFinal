@@ -1,0 +1,13 @@
+// ... existing imports ...
+import React from 'react';
+
+const App = () => {
+  console.log('App component rendering'); // Debug line
+  return (
+    <div style={{ backgroundColor: 'red', padding: '20px' }}>
+      Temporary debug view - If you see this, React is working
+    </div>
+  );
+};
+
+// ... rest of your render code ...
