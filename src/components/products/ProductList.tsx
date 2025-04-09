@@ -28,7 +28,6 @@ export function ProductList() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [deletingId, setDeletingId] = useState<string | null>(null);
-  const [searchTimeout, setSearchTimeout] = useState<NodeJS.Timeout>();
 
   // Fetch products with current filters and handle loading states
   const refreshProductList = useCallback(async () => {
